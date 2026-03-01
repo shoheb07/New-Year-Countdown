@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 30px;
+}
+
+.countdown {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90px;
+    backdrop-filter: blur(5px);
+}
+
+.box span {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.box p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
